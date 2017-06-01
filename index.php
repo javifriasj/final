@@ -106,6 +106,8 @@
                         <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
                         <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
                     </div>
+                    <br>
+                    <a href="demo.php" class="btn btn-outline btn-xl page-scroll">Empieza gratis</a>
                 </div>
             </div>
         </div>
@@ -175,16 +177,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Cómo se usa</h2>
-                <a href="demo.php" class="btn btn-outline btn-xl page-scroll">DEMO</a>
-            </div>
-        </div>
-        <div class="overlay"></div>
     </section>
 
     <section id="contact" class="contact bg-primary">
