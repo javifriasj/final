@@ -124,7 +124,7 @@
                     <a href="#">Términos</a>
                 </li>
                 <li>
-                    <a href="#">FAQ</a>
+                    <a href="paq.php">FAQ</a>
                 </li>
             </ul>
         </div>
