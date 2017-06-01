@@ -43,6 +43,7 @@
     $(document).ready(function()
     {
         $(".boton").hide();
+        $(".coincidencia").hide();
         
         $('.file').change(function(){
             $(".boton").show();
@@ -50,7 +51,7 @@
         })
         
         $('.boton').on("click", function(){
-            $('.change').attr('src', 'img/azure.png');
+            $(".coincidencia").show();
         });
     })
 </script>
@@ -86,8 +87,13 @@
                 <input type="button" value="analizar" class="boton">
             </div>
             
+            
+            
         </section>
         
+        <div class="coincidencia info">
+            <img src="img/usuario.png"/>
+        </div>
     </section>
 
     <section id="contact" class="contact bg-primary">
