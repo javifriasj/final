@@ -28,6 +28,7 @@
     <link href="css/new-age.min.css" rel="stylesheet">
     
      <link href="css/nuestro.css" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,6 +38,22 @@
     <![endif]-->
 
 </head>
+
+<script>
+    $(document).ready(function()
+    {
+        $(".boton").hide();
+        
+        $('.file').change(function(){
+            $(".boton").show();
+            $('.change').attr('src', 'img/prueba.png');
+        })
+        
+        $('.boton').on("click", function(){
+            $('.change').attr('src', 'img/azure.png');
+        });
+    })
+</script>
 
 <body id="page-top">
 
@@ -63,6 +80,11 @@
     <section id="features" class="features">
         
         <section class="info">
+            <img src="img/demo.png" width="30%" class="change">
+            <div>
+                <input type="file" class="file">
+                <input type="button" value="analizar" class="boton">
+            </div>
             
         </section>
         
