@@ -181,7 +181,7 @@
         <div class="cta-content">
             <div class="container">
                 <h2>Cómo se usa</h2>
-                <a href="#contact" class="btn btn-outline btn-xl page-scroll">DEMO</a>
+                <a href="demo.php" class="btn btn-outline btn-xl page-scroll">DEMO</a>
             </div>
         </div>
         <div class="overlay"></div>
