@@ -52,10 +52,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="color:black;">
                 <ul class="nav navbar-nav">
-                    <li><a href="#azure" style="color:black;">Azure</a></li>
-                    <li><a href="#facial" style="color:black;">Reconocimiento facial</a></li>
-                    <li><a href="#publi" style="color:black;">Publicidad personalizada</a></li>
-                    <li><a href="#movimiento" style="color:black;">Sensores de movimiento</a></li>
+                    <li><a href="index.php" style="color:black;">Inicio</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -65,34 +62,8 @@
     
     <section id="features" class="features">
         
-       <section id="azure" class="info">
-            <div class="izq">
-                <h3>Azure</h3>
-                <p>Cuando Microsoft hace algo bien</p>
-            </div>
-            <img src="img/azure.png" width="30%">
-        </section>
-        <section id="facial" class="info">
-            <img src="img/facial.png" width="30%">
-            <div class="izq">
-                <h3>Reconocimiento Facial</h3>
-                <p>Tecnología emergente</p>
-            </div>
-        </section>
-        <section id="publi" class="info">
-            <div class="izq">
-                <h3>Publicidad</h3>
-                <p>Información personalizada en base a los gustos de los clientes</p>
-            </div>
-            <img src="img/publi.png" width="30%">
-        </section>
-        <section id="movimiento" class="info">
-            <img src="img/sensor.png" width="30%">
-            <img src="img/metadata.png" width="30%">
-            <div class="izq">
-                <h3>Sensores de movimiento </h3>
-                <p>Relacionado con la publidad personalizada</p>
-            </div>
+        <section class="info">
+            
         </section>
         
     </section>
